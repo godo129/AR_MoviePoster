@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F14EE425277E095E0074D713 /* kingsMan_firstAgent.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F14EE424277E095E0074D713 /* kingsMan_firstAgent.mp4 */; };
 		F1F57CF1277DF62000F7AC99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F57CF0277DF62000F7AC99 /* AppDelegate.swift */; };
 		F1F57CF3277DF62000F7AC99 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = F1F57CF2277DF62000F7AC99 /* art.scnassets */; };
 		F1F57CF5277DF62000F7AC99 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F57CF4277DF62000F7AC99 /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F14EE424277E095E0074D713 /* kingsMan_firstAgent.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = kingsMan_firstAgent.mp4; path = ../../../Downloads/kingsMan_firstAgent.mp4; sourceTree = "<group>"; };
 		F1F57CED277DF62000F7AC99 /* AR_MoviePoster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AR_MoviePoster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1F57CF0277DF62000F7AC99 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F1F57CF2277DF62000F7AC99 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 			children = (
 				F1F57CF0277DF62000F7AC99 /* AppDelegate.swift */,
 				F1F57D04277DF7BB00F7AC99 /* spiderman_nowayhome.mp4 */,
+				F14EE424277E095E0074D713 /* kingsMan_firstAgent.mp4 */,
 				F1F57CF2277DF62000F7AC99 /* art.scnassets */,
 				F1F57CF4277DF62000F7AC99 /* ViewController.swift */,
 				F1F57CF6277DF62000F7AC99 /* Main.storyboard */,
@@ -131,6 +134,7 @@
 				F1F57CF3277DF62000F7AC99 /* art.scnassets in Resources */,
 				F1F57CFD277DF62200F7AC99 /* LaunchScreen.storyboard in Resources */,
 				F1F57CFA277DF62200F7AC99 /* Assets.xcassets in Resources */,
+				F14EE425277E095E0074D713 /* kingsMan_firstAgent.mp4 in Resources */,
 				F1F57CF8277DF62000F7AC99 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
