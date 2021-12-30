@@ -13,6 +13,7 @@
 		F1F57CF8277DF62000F7AC99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1F57CF6277DF62000F7AC99 /* Main.storyboard */; };
 		F1F57CFA277DF62200F7AC99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1F57CF9277DF62200F7AC99 /* Assets.xcassets */; };
 		F1F57CFD277DF62200F7AC99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1F57CFB277DF62200F7AC99 /* LaunchScreen.storyboard */; };
+		F1F57D05277DF7BB00F7AC99 /* spiderman_nowayhome.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F1F57D04277DF7BB00F7AC99 /* spiderman_nowayhome.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		F1F57CF9277DF62200F7AC99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F1F57CFC277DF62200F7AC99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F1F57CFE277DF62200F7AC99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1F57D04277DF7BB00F7AC99 /* spiderman_nowayhome.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = spiderman_nowayhome.mp4; path = ../../../Downloads/spiderman_nowayhome.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				F1F57CF0277DF62000F7AC99 /* AppDelegate.swift */,
+				F1F57D04277DF7BB00F7AC99 /* spiderman_nowayhome.mp4 */,
 				F1F57CF2277DF62000F7AC99 /* art.scnassets */,
 				F1F57CF4277DF62000F7AC99 /* ViewController.swift */,
 				F1F57CF6277DF62000F7AC99 /* Main.storyboard */,
@@ -124,6 +127,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1F57D05277DF7BB00F7AC99 /* spiderman_nowayhome.mp4 in Resources */,
 				F1F57CF3277DF62000F7AC99 /* art.scnassets in Resources */,
 				F1F57CFD277DF62200F7AC99 /* LaunchScreen.storyboard in Resources */,
 				F1F57CFA277DF62200F7AC99 /* Assets.xcassets in Resources */,
