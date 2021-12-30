@@ -63,6 +63,14 @@ class ViewController: UIViewController, ARSCNViewDelegate {
                 planeNode.eulerAngles.x = -.pi/2
                 node.addChildNode(planeNode)
                 
+                let textGeo = SCNText(string: "spiderman_nowayhome", extrusionDepth: 1.0)
+                textGeo.firstMaterial?.diffuse.contents = UIColor.white.cgColor
+                let textNode = SCNNode(geometry: textGeo)
+                textNode.position = SCNVector3(planeNode.position.x-0.07, planeNode.position.y, planeNode.position.z-0.07)
+                textNode.scale = SCNVector3(0.001,0.001,0.001)
+                textNode.eulerAngles.x = -.pi/2
+                node.addChildNode(textNode)
+                
             }
             
             if imageAnchor.referenceImage.name == "kingsMan_firstAgent" {
