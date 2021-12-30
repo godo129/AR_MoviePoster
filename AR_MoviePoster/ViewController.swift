@@ -48,9 +48,18 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         let node = SCNNode()
         
         if let imageAnchor = anchor as? ARImageAnchor {
-            print(imageAnchor.referenceImage.name)
+            
+            let videoNode = SKVideoNode(fileNamed: "spiderman_nowayhome.mp4")
+            videoNode.play()
+            let videoScene = SKScene(size: CGSize(width: 640, height: 480))
+            videoNode.position = CGPoint(x: videoScene.size.width/2, y: videoScene.size.height/2)
+            videoScene.addChild(videoNode)
+            videoNode.yScale = -1.0
+            
             let plane = SCNPlane(width: imageAnchor.referenceImage.physicalSize.width, height: imageAnchor.referenceImage.physicalSize.height)
+            plane.firstMaterial?.diffuse.contents = videoScene
             let planeNode = SCNNode(geometry: plane)
+            planeNode.eulerAngles.x = -.pi/2
             node.addChildNode(planeNode)
         }
         
